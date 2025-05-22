@@ -35,6 +35,9 @@ const Header = () => {
             <Link to="/about" className="text-gray-700 hover:text-primary font-medium">
               About
             </Link>
+            <Link to="/our-story" className="text-gray-700 hover:text-primary font-medium">
+              Our Story
+            </Link>
             <Link to="/contact" className="text-gray-700 hover:text-primary font-medium">
               Contact
             </Link>
@@ -88,6 +91,13 @@ const Header = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
+              </Link>
+              <Link 
+                to="/our-story" 
+                className="text-gray-700 hover:text-primary font-medium py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Our Story
               </Link>
               <Link 
                 to="/contact" 
